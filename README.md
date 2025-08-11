@@ -16,6 +16,8 @@ optimal estimation is obtained with an error correction. The solution does not r
 
 ### Code List:
 - Algebraic Solution:
-  - LA3DLoc_CF.m
-- Cramer Rao Bound: SA3DLocLACRLB.m
+  - LA3DLoc_WLS.m: WLS solution without constraint
+  - LA3DLoc_CWLS.m: Constrained WLS solution
+  - LA3DLoc_CWLS_C.m: Constrained WLS solution with correction
+- Cramer Rao Bound: CRLB_AOALocLA.m
 - Example: main_AOALocLA_CF_noise.m
